@@ -1,0 +1,6 @@
+C:\Users\chenxin\Documents\GitHub\LeetcodeSolutions\LeetcodeSolutions\bin\Debug\LeetcodeSolutions.exe.config
+C:\Users\chenxin\Documents\GitHub\LeetcodeSolutions\LeetcodeSolutions\obj\Debug\LeetcodeSolutions.csprojResolveAssemblyReference.cache
+C:\Users\chenxin\Documents\GitHub\LeetcodeSolutions\LeetcodeSolutions\bin\Debug\LeetcodeSolutions.exe
+C:\Users\chenxin\Documents\GitHub\LeetcodeSolutions\LeetcodeSolutions\bin\Debug\LeetcodeSolutions.pdb
+C:\Users\chenxin\Documents\GitHub\LeetcodeSolutions\LeetcodeSolutions\obj\Debug\LeetcodeSolutions.exe
+C:\Users\chenxin\Documents\GitHub\LeetcodeSolutions\LeetcodeSolutions\obj\Debug\LeetcodeSolutions.pdb
