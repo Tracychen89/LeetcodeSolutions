@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddDigitalsProgram.cs" />
+    <Compile Include="HappyNumber.cs" />
+    <Compile Include="ImplementQueueWithStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveDuplicatesFromSortedlist.cs" />

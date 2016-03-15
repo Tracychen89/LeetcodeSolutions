@@ -13,7 +13,17 @@ namespace LeetcodeSolutions
             //MainAddDigital(args);
             //MainReverseLinkedList(args);
            // MainRomanToInt(args);
-            MainRemoveDuplicatesFromSortedlist(args);
+            //MainRemoveDuplicatesFromSortedlist(args);
+            MainHappyNumber(args);
+        }
+        static void MainHappyNumber(string[] args)
+        {
+
+            HappyNumber.Solution s = new HappyNumber.Solution();
+
+            Console.WriteLine(s.IsHappy(199898));
+            Console.ReadLine();
+
         }
         static void MainAddDigital(string[] args)
         {
@@ -86,6 +96,7 @@ namespace LeetcodeSolutions
             Console.ReadLine();
 
         }
+
     }
    
 }
