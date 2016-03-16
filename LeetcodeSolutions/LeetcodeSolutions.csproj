@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddDigitalsProgram.cs" />
+    <Compile Include="BinaryTreeLevelTravesal.cs" />
     <Compile Include="HappyNumber.cs" />
     <Compile Include="ImplementQueueWithStack.cs" />
     <Compile Include="Program.cs" />

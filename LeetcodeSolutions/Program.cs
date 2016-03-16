@@ -8,13 +8,44 @@ namespace LeetcodeSolutions
 {
     class Program
     {
+
         static void Main(string[] args)
+
         {
             //MainAddDigital(args);
             //MainReverseLinkedList(args);
            // MainRomanToInt(args);
             //MainRemoveDuplicatesFromSortedlist(args);
-            MainHappyNumber(args);
+            //MainHappyNumber(args);
+            IList<IList<int>> res = new List<IList<int>>();
+            List<int> result1 = new List<int>();
+            List<int> result2 = new List<int>();
+             result1.Add(1);
+            result1.Add(2);
+            result1.Add(3);
+            result2.Add(1);
+            result2.Add(2);
+            result2.Add(3);
+            
+
+
+            res.Add(result1);
+            foreach(var v in res)
+            {
+                foreach (var k in result1)
+                {
+                    Console.Write(k+" ");
+                }
+                Console.WriteLine();
+                foreach (var k in result2)
+                {
+                    Console.Write(k+" ");
+                }
+            }
+            
+            Console.ReadLine();
+
+
         }
         static void MainHappyNumber(string[] args)
         {
