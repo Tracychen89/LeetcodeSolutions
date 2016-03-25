@@ -17,36 +17,68 @@ namespace LeetcodeSolutions
            // MainRomanToInt(args);
             //MainRemoveDuplicatesFromSortedlist(args);
             //MainHappyNumber(args);
-            IList<IList<int>> res = new List<IList<int>>();
-            List<int> result1 = new List<int>();
-            List<int> result2 = new List<int>();
-             result1.Add(1);
-            result1.Add(2);
-            result1.Add(3);
-            result2.Add(1);
-            result2.Add(2);
-            result2.Add(3);
+
+            //MainIntersectionOfTwoLinkedList(args);
+
+            //MainReverseBits(args);
+
+            MainBubbleSort(args);
             
+        }
 
-
-            res.Add(result1);
-            foreach(var v in res)
+        static void MainBubbleSort(string[] args)
+        {
+            BubbleSort.Program s = new BubbleSort.Program();
+            int[] arry = new int[10000];
+            Random r = new Random();
+            for (int i = 0; i < 10000; i++)
             {
-                foreach (var k in result1)
-                {
-                    Console.Write(k+" ");
-                }
-                Console.WriteLine();
-                foreach (var k in result2)
-                {
-                    Console.Write(k+" ");
-                }
+
+                arry[i] = r.Next(1, 10000);
+                Console.Write(arry[i]);
             }
-            
+            int[] res = new int[10000];
+            res = s.SortArray(arry);
+            for(int j = 0; j<10000; j++)
+            {
+                Console.Write(res[j]);
+            }
+            Console.ReadLine();
+        }
+
+
+
+        static void MainReverseBits(string[] args)
+        {
+            ReverseBits.Solution s = new ReverseBits.Solution();
+            Console.WriteLine(s.reverseBits(43261596));
             Console.ReadLine();
 
 
         }
+        //static void MainIntersectionOfTwoLinkedList(string[] args)
+        //{
+        //    IntersectionOfTwoLinkedList.Solution s = new IntersectionOfTwoLinkedList.Solution();
+        //    IntersectionOfTwoLinkedList.ListNode headA = new IntersectionOfTwoLinkedList.ListNode(1);
+        //    headA.next = new IntersectionOfTwoLinkedList.ListNode(4);
+        //    headA.next.next = new IntersectionOfTwoLinkedList.ListNode(5);
+        //    headA.next.next.next = new IntersectionOfTwoLinkedList.ListNode(6);
+        //    IntersectionOfTwoLinkedList.ListNode headB = new IntersectionOfTwoLinkedList.ListNode(2);
+        //    headB.next = new IntersectionOfTwoLinkedList.ListNode(3);
+        //    headB.next.next = new IntersectionOfTwoLinkedList.ListNode(5);
+        //    headB.next.next.next = new IntersectionOfTwoLinkedList.ListNode(6);
+
+        //    IntersectionOfTwoLinkedList.ListNode result;
+        //   result = s.getIntersectionNode(headA, headB);
+
+        //    while(result != null)
+        //    {
+        //        Console.WriteLine(result.val);
+        //        result = result.next;
+        //    }
+        //    Console.ReadLine();
+
+        //}
         static void MainHappyNumber(string[] args)
         {
 
